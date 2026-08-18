@@ -31,7 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Link href="/posts">글 목록</Link>
         </nav>
       </header>
-      <main>{children}</main>
+      <main className="flex-1 flex h-full justify-center items-center">{children}</main>
       <footer>푸터</footer>
       </body>
   </html>
